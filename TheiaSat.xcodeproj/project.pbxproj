@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F41864E080565B0A2E7BBEE /* Pods_TheiaSat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C870D5F35BB45A73BBF4DBD7 /* Pods_TheiaSat.framework */; };
+		370F6A7368BD39375C0EAD06 /* Pods_TheiaSatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F88E2E4773B89B190301113C /* Pods_TheiaSatUITests.framework */; };
 		80DCAEDB22A32C0E00F28BDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DCAEDA22A32C0E00F28BDA /* AppDelegate.swift */; };
 		80DCAEDD22A32C0E00F28BDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DCAEDC22A32C0E00F28BDA /* ViewController.swift */; };
 		80DCAEE022A32C0E00F28BDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80DCAEDE22A32C0E00F28BDA /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		80DCAEE522A32C1100F28BDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80DCAEE322A32C1100F28BDA /* LaunchScreen.storyboard */; };
 		80DCAEF022A32C1100F28BDA /* TheiaSatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DCAEEF22A32C1100F28BDA /* TheiaSatTests.swift */; };
 		80DCAEFB22A32C1100F28BDA /* TheiaSatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DCAEFA22A32C1100F28BDA /* TheiaSatUITests.swift */; };
+		D2EB5050E50D7218DFCF6321 /* Pods_TheiaSatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF2D621503781C15245E017E /* Pods_TheiaSatTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		44CFE6AB9940D40C2A2EBBAC /* Pods-TheiaSatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheiaSatTests.debug.xcconfig"; path = "Target Support Files/Pods-TheiaSatTests/Pods-TheiaSatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4744338F4948C004AD05CBD0 /* Pods-TheiaSatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheiaSatTests.release.xcconfig"; path = "Target Support Files/Pods-TheiaSatTests/Pods-TheiaSatTests.release.xcconfig"; sourceTree = "<group>"; };
+		727C0E5DB4E12E6BF9557B44 /* Pods-TheiaSat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheiaSat.release.xcconfig"; path = "Target Support Files/Pods-TheiaSat/Pods-TheiaSat.release.xcconfig"; sourceTree = "<group>"; };
 		80DCAED722A32C0E00F28BDA /* TheiaSat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheiaSat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80DCAEDA22A32C0E00F28BDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80DCAEDC22A32C0E00F28BDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,13 @@
 		80DCAEF622A32C1100F28BDA /* TheiaSatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheiaSatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80DCAEFA22A32C1100F28BDA /* TheiaSatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheiaSatUITests.swift; sourceTree = "<group>"; };
 		80DCAEFC22A32C1100F28BDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80DCAF0822A32EAF00F28BDA /* IDETemplateMacros.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = IDETemplateMacros.plist; sourceTree = "<group>"; };
+		8691ED289C652F8BBA0B5744 /* Pods-TheiaSat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheiaSat.debug.xcconfig"; path = "Target Support Files/Pods-TheiaSat/Pods-TheiaSat.debug.xcconfig"; sourceTree = "<group>"; };
+		8BE386FA627F14064F3968F1 /* Pods-TheiaSatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheiaSatUITests.release.xcconfig"; path = "Target Support Files/Pods-TheiaSatUITests/Pods-TheiaSatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C3240683B9A8ED58467FD1AA /* Pods-TheiaSatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheiaSatUITests.debug.xcconfig"; path = "Target Support Files/Pods-TheiaSatUITests/Pods-TheiaSatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C870D5F35BB45A73BBF4DBD7 /* Pods_TheiaSat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheiaSat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F88E2E4773B89B190301113C /* Pods_TheiaSatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheiaSatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF2D621503781C15245E017E /* Pods_TheiaSatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheiaSatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F41864E080565B0A2E7BBEE /* Pods_TheiaSat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2EB5050E50D7218DFCF6321 /* Pods_TheiaSatTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +83,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				370F6A7368BD39375C0EAD06 /* Pods_TheiaSatUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		462A4AE485FD3243F722DAA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C870D5F35BB45A73BBF4DBD7 /* Pods_TheiaSat.framework */,
+				FF2D621503781C15245E017E /* Pods_TheiaSatTests.framework */,
+				F88E2E4773B89B190301113C /* Pods_TheiaSatUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		80DCAECE22A32C0E00F28BDA = {
 			isa = PBXGroup;
 			children = (
+				80DCAF0822A32EAF00F28BDA /* IDETemplateMacros.plist */,
 				80DCAED922A32C0E00F28BDA /* TheiaSat */,
 				80DCAEEE22A32C1100F28BDA /* TheiaSatTests */,
 				80DCAEF922A32C1100F28BDA /* TheiaSatUITests */,
 				80DCAED822A32C0E00F28BDA /* Products */,
+				A6E3F82410D2B9F3CC317B68 /* Pods */,
+				462A4AE485FD3243F722DAA2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +154,20 @@
 			path = TheiaSatUITests;
 			sourceTree = "<group>";
 		};
+		A6E3F82410D2B9F3CC317B68 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8691ED289C652F8BBA0B5744 /* Pods-TheiaSat.debug.xcconfig */,
+				727C0E5DB4E12E6BF9557B44 /* Pods-TheiaSat.release.xcconfig */,
+				44CFE6AB9940D40C2A2EBBAC /* Pods-TheiaSatTests.debug.xcconfig */,
+				4744338F4948C004AD05CBD0 /* Pods-TheiaSatTests.release.xcconfig */,
+				C3240683B9A8ED58467FD1AA /* Pods-TheiaSatUITests.debug.xcconfig */,
+				8BE386FA627F14064F3968F1 /* Pods-TheiaSatUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +175,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80DCAEFF22A32C1100F28BDA /* Build configuration list for PBXNativeTarget "TheiaSat" */;
 			buildPhases = (
+				FAC284AB82141AF6B81D2B38 /* [CP] Check Pods Manifest.lock */,
 				80DCAED322A32C0E00F28BDA /* Sources */,
 				80DCAED422A32C0E00F28BDA /* Frameworks */,
 				80DCAED522A32C0E00F28BDA /* Resources */,
@@ -149,6 +193,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80DCAF0222A32C1100F28BDA /* Build configuration list for PBXNativeTarget "TheiaSatTests" */;
 			buildPhases = (
+				E3CC2E2C93A58498F8555743 /* [CP] Check Pods Manifest.lock */,
 				80DCAEE722A32C1100F28BDA /* Sources */,
 				80DCAEE822A32C1100F28BDA /* Frameworks */,
 				80DCAEE922A32C1100F28BDA /* Resources */,
@@ -167,6 +212,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80DCAF0522A32C1100F28BDA /* Build configuration list for PBXNativeTarget "TheiaSatUITests" */;
 			buildPhases = (
+				EE8AC3EA9350ED0E424E1A05 /* [CP] Check Pods Manifest.lock */,
 				80DCAEF222A32C1100F28BDA /* Sources */,
 				80DCAEF322A32C1100F28BDA /* Frameworks */,
 				80DCAEF422A32C1100F28BDA /* Resources */,
@@ -250,6 +296,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E3CC2E2C93A58498F8555743 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TheiaSatTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE8AC3EA9350ED0E424E1A05 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TheiaSatUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAC284AB82141AF6B81D2B38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TheiaSat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		80DCAED322A32C0E00F28BDA /* Sources */ = {
@@ -430,6 +545,7 @@
 		};
 		80DCAF0022A32C1100F28BDA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8691ED289C652F8BBA0B5744 /* Pods-TheiaSat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +564,7 @@
 		};
 		80DCAF0122A32C1100F28BDA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 727C0E5DB4E12E6BF9557B44 /* Pods-TheiaSat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +583,7 @@
 		};
 		80DCAF0322A32C1100F28BDA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44CFE6AB9940D40C2A2EBBAC /* Pods-TheiaSatTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +605,7 @@
 		};
 		80DCAF0422A32C1100F28BDA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4744338F4948C004AD05CBD0 /* Pods-TheiaSatTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +627,7 @@
 		};
 		80DCAF0622A32C1100F28BDA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3240683B9A8ED58467FD1AA /* Pods-TheiaSatUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +648,7 @@
 		};
 		80DCAF0722A32C1100F28BDA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BE386FA627F14064F3968F1 /* Pods-TheiaSatUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
