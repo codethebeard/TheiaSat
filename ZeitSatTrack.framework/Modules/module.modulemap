@@ -1,0 +1,4 @@
+framework module ZeitSatTrack {
+  header "ZeitSatTrack-Swift.h"
+  requires objc
+}
