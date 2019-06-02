@@ -40,7 +40,6 @@ class ViewController: UIViewController {
             print("Successfully tracking \(named)")
             satellites.append(satellite)
             mapView.addAnnotation(satellites[satellites.count - 1])
-            
             return true
         } else {
             print("Did not successfully add satellite")
@@ -50,10 +49,13 @@ class ViewController: UIViewController {
     
     private func updatePositionForSatellite(name: String, position: CLLocationCoordinate2D) {
         guard let index = satellites.firstIndex(where: { $0.name == name }) else { return }
+        let formatter = DateFormatter()
+        formatter.dateFormat = "HH:mm:ss.SSS"
+        
         mapView.removeAnnotation(satellites[index])
         satellites[index].coordinate = position
         mapView.addAnnotation(satellites[index])
-        print("Updating position for \(satellites[index].name)")
+        print("\(formatter.string(from: Date())) - Updating position for \(satellites[index].name)")
     }
 }
 
