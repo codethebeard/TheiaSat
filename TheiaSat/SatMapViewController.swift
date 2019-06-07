@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var mapView: MKMapView!
     private let tracker = ZeitSatTrackManager.sharedInstance
     private var satellites: [Satellite] = []
+    private var currentSatellite: String = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -98,7 +99,15 @@ extension ViewController: MKMapViewDelegate {
     
     func mapView(_ mapView: MKMapView, didSelect view: MKAnnotationView) {
         if let annotation = view.annotation as? Satellite {
-            print("Pressed \(annotation.name)")
+            currentSatellite = annotation.name
+            performSegue(withIdentifier: "satDetailsSegue", sender: self)
+        }
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "satDetailsSegue" {
+            let vc = segue.destination as! SatelliteDetailsViewController
+            vc.currentSatellite = currentSatellite
         }
     }
     

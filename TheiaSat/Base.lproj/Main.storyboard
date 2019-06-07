@@ -34,11 +34,27 @@
                     <navigationItem key="navigationItem" title="Sat Map" id="nAI-En-Pzh"/>
                     <connections>
                         <outlet property="mapView" destination="r1g-KO-7e9" id="EbB-fr-K7x"/>
+                        <segue destination="ETw-t3-7hE" kind="show" identifier="satDetailsSegue" id="ZiW-m2-E9a"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1868.1159420289857" y="20.758928571428569"/>
+        </scene>
+        <!--Sat Details-->
+        <scene sceneID="5e3-In-ci9">
+            <objects>
+                <viewController title="Sat Details" id="ETw-t3-7hE" customClass="SatelliteDetailsViewController" customModule="TheiaSat" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="a7D-Bf-1Yg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="A1o-qi-sFl"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VSR-x0-Bgm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2739" y="21"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="TkQ-ZY-84b">
@@ -46,6 +62,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="hDL-xU-kC8" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ICs-zQ-I6q">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>

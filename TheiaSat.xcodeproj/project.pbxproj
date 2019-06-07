@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		0F41864E080565B0A2E7BBEE /* Pods_TheiaSat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C870D5F35BB45A73BBF4DBD7 /* Pods_TheiaSat.framework */; };
 		370F6A7368BD39375C0EAD06 /* Pods_TheiaSatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F88E2E4773B89B190301113C /* Pods_TheiaSatUITests.framework */; };
+		804881C022AB120B00A48BA8 /* SatelliteDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804881BF22AB120B00A48BA8 /* SatelliteDetailsViewController.swift */; };
 		80DB81CB22A3666800A77A02 /* ZeitSatTrack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80DB81C922A3666000A77A02 /* ZeitSatTrack.framework */; };
 		80DB81CC22A3666800A77A02 /* ZeitSatTrack.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 80DB81C922A3666000A77A02 /* ZeitSatTrack.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		80DB81CE22A3711A00A77A02 /* Satellite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DB81CD22A3711A00A77A02 /* Satellite.swift */; };
 		80DCAEDB22A32C0E00F28BDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DCAEDA22A32C0E00F28BDA /* AppDelegate.swift */; };
-		80DCAEDD22A32C0E00F28BDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DCAEDC22A32C0E00F28BDA /* ViewController.swift */; };
+		80DCAEDD22A32C0E00F28BDA /* SatMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DCAEDC22A32C0E00F28BDA /* SatMapViewController.swift */; };
 		80DCAEE022A32C0E00F28BDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80DCAEDE22A32C0E00F28BDA /* Main.storyboard */; };
 		80DCAEE222A32C1100F28BDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80DCAEE122A32C1100F28BDA /* Assets.xcassets */; };
 		80DCAEE522A32C1100F28BDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80DCAEE322A32C1100F28BDA /* LaunchScreen.storyboard */; };
@@ -57,11 +58,12 @@
 		44CFE6AB9940D40C2A2EBBAC /* Pods-TheiaSatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheiaSatTests.debug.xcconfig"; path = "Target Support Files/Pods-TheiaSatTests/Pods-TheiaSatTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4744338F4948C004AD05CBD0 /* Pods-TheiaSatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheiaSatTests.release.xcconfig"; path = "Target Support Files/Pods-TheiaSatTests/Pods-TheiaSatTests.release.xcconfig"; sourceTree = "<group>"; };
 		727C0E5DB4E12E6BF9557B44 /* Pods-TheiaSat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheiaSat.release.xcconfig"; path = "Target Support Files/Pods-TheiaSat/Pods-TheiaSat.release.xcconfig"; sourceTree = "<group>"; };
+		804881BF22AB120B00A48BA8 /* SatelliteDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatelliteDetailsViewController.swift; sourceTree = "<group>"; };
 		80DB81C922A3666000A77A02 /* ZeitSatTrack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZeitSatTrack.framework; sourceTree = "<group>"; };
 		80DB81CD22A3711A00A77A02 /* Satellite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Satellite.swift; sourceTree = "<group>"; };
 		80DCAED722A32C0E00F28BDA /* TheiaSat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheiaSat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80DCAEDA22A32C0E00F28BDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		80DCAEDC22A32C0E00F28BDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80DCAEDC22A32C0E00F28BDA /* SatMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatMapViewController.swift; sourceTree = "<group>"; };
 		80DCAEDF22A32C0E00F28BDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		80DCAEE122A32C1100F28BDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80DCAEE422A32C1100F28BDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -146,12 +148,13 @@
 			isa = PBXGroup;
 			children = (
 				80DCAEDA22A32C0E00F28BDA /* AppDelegate.swift */,
-				80DCAEDC22A32C0E00F28BDA /* ViewController.swift */,
+				80DCAEDC22A32C0E00F28BDA /* SatMapViewController.swift */,
 				80DCAEDE22A32C0E00F28BDA /* Main.storyboard */,
 				80DCAEE122A32C1100F28BDA /* Assets.xcassets */,
 				80DCAEE322A32C1100F28BDA /* LaunchScreen.storyboard */,
 				80DCAEE622A32C1100F28BDA /* Info.plist */,
 				80DB81CD22A3711A00A77A02 /* Satellite.swift */,
+				804881BF22AB120B00A48BA8 /* SatelliteDetailsViewController.swift */,
 			);
 			path = TheiaSat;
 			sourceTree = "<group>";
@@ -391,9 +394,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80DCAEDD22A32C0E00F28BDA /* ViewController.swift in Sources */,
+				80DCAEDD22A32C0E00F28BDA /* SatMapViewController.swift in Sources */,
 				80DCAEDB22A32C0E00F28BDA /* AppDelegate.swift in Sources */,
 				80DB81CE22A3711A00A77A02 /* Satellite.swift in Sources */,
+				804881C022AB120B00A48BA8 /* SatelliteDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,7 +584,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mjvandyke.TheiaSat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mjvandyke.HAMSatTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -603,7 +607,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mjvandyke.TheiaSat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mjvandyke.HAMSatTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
